@@ -21,6 +21,7 @@ import { useState } from "react"
           <button className="border p-1 rounded" onClick={sumar}>sumar</button>
           <button className="border p-1 rounded" onClick={restar}>restar</button>
           <button className="border p-1 rounded" onClick={resetear}>resetear</button>
+          <span className='px-1'>{contador}</span>
       </main>
   )
 

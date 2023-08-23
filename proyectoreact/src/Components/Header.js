@@ -7,8 +7,8 @@ import Navlinks from "./Navlinks"
 
   <header id="header" className="header flex justify-between py-4 px-2 bg-green-900 text-white">
     <h1>MiHogar</h1>
+    <Navlinks/>
     <CartWidget/>
-    <Navlinks />
   </header>
 
 )

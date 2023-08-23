@@ -3,13 +3,15 @@ import contents from "./Components/content"
 import Main from "./Components/Main";
 import Footer from "./Components/Footer"
 import Items from "./Components/Items"
+import Header from "./Components/Header";
 
 function App() {
 
   return (
 <BrowserRouter>
+<Header/>
 <Main/>
-  <div className="App">
+  <div className="Main">
     {contents.map(contents => (
       <Items
         key={contents.id}
@@ -20,7 +22,6 @@ function App() {
        />
     ))}
   </div>
-  <h2>Contactanos</h2>
   <Footer />
 </BrowserRouter>
   );
